@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-
 function Square(props){
       return (
         <button className="square" onClick= {props.onClick}>
@@ -37,7 +36,7 @@ function Square(props){
   
     render() {
       const status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
-  
+
       return (
         <div>
           <div className="status">{status}</div>
